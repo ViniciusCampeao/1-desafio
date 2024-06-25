@@ -1,0 +1,34 @@
+.container {
+  background: linear-gradient(to bottom, #39289F, #422F9C);
+}
+.header {
+  background: #39289F;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-logo{
+  margin: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 16px;
+}
+
+#link-5 {
+  background-color: #FA9021;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
