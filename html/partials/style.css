@@ -1,34 +1,135 @@
 .container {
-  background: linear-gradient(to bottom, #39289F, #422F9C);
+  margin: 0px 147px 147px;    
+  margin-top: 50px;
 }
-.header {
-  background: #39289F;
-  padding: 30px;
+
+.container-2 {
+  display: grid;
+  grid-template-columns: 0.55fr 1fr;
+  gap: 0px;
+  position: relative;
+}
+
+#img_joy {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#title-1 {
+  font-size: 20px;
+  color: #E87D0E;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+
+#title-2 {
+  font-size: 50px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+#paragraph_1 {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 50px;
+  inline-size: 450px;
+}
+
+#link-6 {
+  background: linear-gradient(to right, #FA8305, #FB9E3C);
+  padding: 14px 30px;
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  transition: transform 0.5s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#link-6:hover {
+  transform: scale(1.1);
+}
+
+.box-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#img_1 {
+  margin-left: 0px;
+  margin-top: 190px;
+}
+
+#img_2 {
+  margin-left: 20px;
+}
+
+#img_3 {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.box-5 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  margin-top: 129px;
 }
 
-.img-logo{
-  margin: 20px;
+.box-5 h2 {
+  text-align: center;
+  font-size: 35px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;    
+  width: 826px;
+  height: 132px;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.link {
+.container-3 {
   color: white;
   font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  margin-right: 40px;
-  font-size: 16px;
 }
 
-#link-5 {
-  background-color: #FA9021;
-  padding: 10px 20px;
-  border-radius: 5px;
+.container-3 h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 67px;
+}
+
+.container-3 p {
+  font-size: 16px;
+  margin-bottom: 32px;
+  width: 500px;
+}
+
+.container-3 img {
+  margin-top: 40px;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+#img_point {
+  position: absolute;
+  top: -60px;
+  right: 60px;
+  z-index: 1;
+}
+
+#img_4 {
+  align-items: center;
+  margin-top: 20px;
+  height: 462px;
+  position: relative;
+  z-index: 2;
+  margin-top: 46px;
+  width: 100%;
 }
