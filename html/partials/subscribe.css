@@ -1,0 +1,71 @@
+.Subscribe{
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.Subscribe h1{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Subscribe p{
+  font-size: 16px;
+  margin-top: 20px;
+  width: 45%;
+}
+
+#title-4{
+  font-weight: normal;
+}
+
+#paragraph-3{
+  font-size: 17px;
+  width: 95%;
+  margin-top: 30px;
+}
+
+.box-6 {
+  background-color: #1C140F;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.box-6 div:first-child {
+  flex: 1;
+}
+
+.box-6 p {
+  margin-bottom: 10px;
+  width: 70%;
+}
+
+.box-6 input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.box-6 button {
+  padding: 10px 20px;
+  background-color: #DC7000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.input-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  width: 385px;
+  height: 48px;
+}
