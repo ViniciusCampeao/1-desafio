@@ -1,0 +1,42 @@
+.container-3 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-3 h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 67px;
+}
+
+.container-3 p {
+  font-size: 16px;
+  margin-bottom: 32px;
+  width: 500px;
+  line-height: 1.5;
+}
+
+.container-3 img {
+  margin-top: 40px;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.img_point {
+  position: absolute;
+  top: -60px;
+  right: 60px;
+  z-index: 1;
+}
+
+.img_4 {
+  align-items: center;
+  margin-top: 20px;
+  height: 462px;
+  position: relative;
+  z-index: 2;
+  margin-top: 46px;
+  width: 100%;
+}
