@@ -20,6 +20,10 @@
   flex: 0.25;
 }
 
+.footer-column-1 p{
+  line-height: 1.5;
+}
+
 .footer-column-2 {
   flex: 0.2;
   margin: 0px 0px 0px 50px;
@@ -33,6 +37,11 @@
   flex: 0.21;
 }
 
+.footer-column-3 p{
+  line-height: 1.5;
+}
+
+
 .footer-column-4 {
   flex: 0.2;
   display: grid;
@@ -42,7 +51,7 @@
 
 .footer a {
   color: white;
-
+  padding-top: 5px;
 }
 
 .footer p {
@@ -66,4 +75,9 @@
 
 .footer-column-4 a{
     margin: 0px;
+}
+
+.footer-bottom p{
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
 }
