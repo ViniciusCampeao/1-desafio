@@ -1,0 +1,101 @@
+body{
+  background: linear-gradient(to bottom, #2211E7, #383837);
+  margin: 0px;
+
+}
+
+.container {
+  margin: 0;
+}
+
+.redirection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.redirection p {
+  color: white;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.redirection a {
+  color: #E47500;
+  transition: none;
+  transform: none;
+}
+
+.box-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.box-map h1 {
+  font-size: 33px;
+}
+
+.box-map p {
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+.box-map img {
+  margin-top: 50px;
+}
+
+.box-follow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 50px 140px 140px 140px;
+}
+
+.box-follow a {
+  margin: 0;
+}
+
+.box-follow p {
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.net {
+  border-right: 1px solid white;
+  padding-right: 50px;
+}
+
+
+.net-2 {
+  border-right: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.net-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 90%;
+  margin-left: 70px;
+}
+
+.net-3 img {
+  margin-right: 5px;
+}
+
+
+
+.container-3{
+  margin: 200px;
+}
