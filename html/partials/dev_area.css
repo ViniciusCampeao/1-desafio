@@ -29,21 +29,22 @@
   font-size: 16px;
   width: 750px;
   height: 60px;
+  line-height: 1.5;
 }
 
-#imgs{
+.imgs{
   display: flex;
   justify-content: space-between;
   width: 75%;
 }
 
-#imgs_3 p{
+.imgs_3 p{
   width: 100%;
   margin-top: 20px;
   margin-bottom: -10px;
 }
 
-#imgs_2{
+.imgs_2{
   display: flex;
   width: 25%;
   justify-content: space-between;

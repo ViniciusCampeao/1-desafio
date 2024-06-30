@@ -12,13 +12,14 @@
   font-size: 16px;
   margin-top: 20px;
   width: 45%;
+  line-height: 1.5;
 }
 
-#title-4{
+.title-4{
   font-weight: normal;
 }
 
-#paragraph-3{
+.paragraph-3{
   font-size: 17px;
   width: 95%;
   margin-top: 30px;
@@ -60,7 +61,7 @@
   margin-right: 5px;
 }
 
-.input-2{
+.input-2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,4 +69,37 @@
   border-radius: 8px;
   width: 385px;
   height: 48px;
+  position: relative;
+}
+
+.input-2 input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.input-2 button {
+  padding: 10px 20px;
+  background-color: #DC7000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.error-message-2 {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: red;
+  font-size: 14px;
+}
+
+.alert.sucesso {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: rgb(24, 209, 24);
+  font-size: 14px;
 }
