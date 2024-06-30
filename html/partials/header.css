@@ -15,12 +15,12 @@
   align-items: center;
 }
 
-#link-5 {
+.link-5 {
   background-color: #FA9021;
   padding: 10px 20px;
   border-radius: 5px;
 }
 
-#link-5:hover {
+.link-5:hover {
   transform: scale(1.1);
 }
