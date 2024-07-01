@@ -1,0 +1,56 @@
+.Projects{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 50px;
+}
+
+.Projects h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+.Projects p{
+  font-size: 14px;
+  display: inline-block;
+  max-width: 450px;
+  line-height: 1.5;
+}
+
+.img-wrapper{
+  margin-top: 60px;
+}
+
+.img-wrapper a{
+  margin: 0;
+  transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+  display: inline-block;
+}
+
+.img-wrapper:hover a{
+  filter: blur(4px);
+  opacity: 0.5;
+}
+
+.img-wrapper a:hover {
+  transform: scale(1.2);
+  filter: none;
+  opacity: 1;
+}
+
+.link-8{
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.11);
+  border-radius: 10px;
+  width: 139px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.link-8:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}

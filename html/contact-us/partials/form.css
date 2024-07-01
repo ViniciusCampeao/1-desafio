@@ -1,0 +1,128 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #1C140F;
+  margin: 0;
+  color: white;
+  justify-content: center;
+}
+
+.title-2 {
+  text-align: center;
+  z-index: 1;
+  margin-top: 70px;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-2 h1 {
+  font-size: 30px;
+  font-weight: 100;
+  }
+
+.title-2 p {
+  font-size: 13px;
+  margin-top: 7px;
+  margin-bottom: 60px;
+}
+
+.form img {
+  position: absolute;
+  z-index: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.form img:nth-child(1) {
+  top: 0;
+  right: 0;
+}
+
+.form img:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  color: #4F4F4F;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  z-index: 2;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.contact-form .form-row {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-group.full-width {
+  width: 75%;
+}
+
+.contact-form .form-group label {
+  margin-bottom: 5px;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 0.1px solid #CECECE;
+  border-radius: 9px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.contact-form .form-group textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+.contact-form .submit-button {
+  align-self: flex-end;
+  padding: 20px;
+  font-size: 16px;
+  background-color: rgba(220, 112, 0, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 193px;
+  height: 57px;
+  margin-right: 120px;
+  margin-bottom: 40px;
+  transition: transform 0.5s ease;
+}
+
+.contact-form .submit-button:hover {
+  transform: translateY(-2px);
+}
+
+.submit-button:disabled {
+  background-color: rgba(220, 112, 0, 0.2);
+  cursor: not-allowed;
+}
+
+.form-group span {
+  margin-top: 10px;
+}
