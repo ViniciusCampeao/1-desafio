@@ -65,6 +65,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     localStorage.setItem('contactFormData', JSON.stringify(formData));
 
-    window.location.href = '../sucess/index.html';
+    window.location.href = '../success/index.html';
   });
 });
